@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "This is a website for the fictional campsites review site NuCamp.",
   "main": "index.html",
+  "keywords": [
+    "nucamp",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ursawd/nucampsite.git"
+  },
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
