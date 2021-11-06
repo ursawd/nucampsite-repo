@@ -28,6 +28,7 @@
   </head>
 
   <body>
+    <!-- header / jumbotron================================== -->
     <header class="jumbotron jumbotron-fluid">
       <div class="container">
         <div class="row">
@@ -41,7 +42,7 @@
         </div>
       </div>
     </header>
-
+    <!-- navbar================================================== -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div class="container">
         <a href="#" class="navbar-brand">
@@ -81,7 +82,7 @@
         </div>
       </div>
     </nav>
-
+    <!--content====================================================  -->
     <div class="container">
       <div class="row row-content align-items-center">
         <div class="col-sm-4 order-sm-last col-md-3">
@@ -111,11 +112,21 @@
           <h2>Featured Campsites</h2>
         </div>
         <div class="col">
-          <h3>React Lake Campground</h3>
-          <p class="d-none d-sm-block">
-            Nestled in the foothills of the Chrome Mountains, this campground on
-            the shores of the pristine React Lake is a favorite for fly fishers.
-          </p>
+          <div class="media">
+            <div class="media-body align-self-center">
+              <h3>React Lake Campground</h3>
+              <p class="d-none d-sm-block">
+                Nestled in the foothills of the Chrome Mountains, this
+                campground on the shores of the pristine React Lake is a
+                favorite for fly fishers.
+              </p>
+            </div>
+            <img
+              class="img-thumbnail d-flex ml-3"
+              src="./img/react-lake-thumb.jpg"
+              alt="React Lake Campground"
+            />
+          </div>
         </div>
       </div>
 
@@ -141,11 +152,11 @@
         </div>
       </div>
     </div>
-
+    <!-- footer==================================================== -->
     <footer class="site-footer">
-      <!-- nav links -->
       <div class="container">
         <div class="row">
+          <!-- nav links -->
           <div class="col-4 col-sm-2 offset-1">
             <h5>Links</h5>
             <ul class="list-unstyled">
@@ -177,6 +188,7 @@
               ><i class="fa fa-youtube"></i
             ></a>
           </div>
+          <!-- contact info============================================== -->
           <div class="col-sm-4 text-center">
             <a role="button" class="btn btn-link" href="tel:+12065551234"
               ><i class="fa fa-phone"></i> 1-206-555-1234</a
@@ -191,6 +203,7 @@
         </div>
       </div>
     </footer>
+    <!-- bootstrap scripts============================================================ -->
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
